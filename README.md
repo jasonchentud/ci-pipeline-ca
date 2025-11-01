@@ -38,3 +38,11 @@ open htmlcov\index.html
 - Found in src/calculator.py
 
 - Test coverage: 28 unit tests covering 100%
+
+## References
+
+All external resources used in this project:
+
+- pytest Documentation (2024) *pytest: helps you write better programs*. Available at: https://docs.pytest.org/ (Accessed: 1 November 2024).
+
+- Coverage.py Documentation (2024) *Coverage.py*. Available at: https://coverage.readthedocs.io/ (Accessed: 1 November 2024).
