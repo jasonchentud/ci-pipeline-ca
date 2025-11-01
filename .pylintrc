@@ -1,0 +1,10 @@
+[MASTER]
+disable=C0111,C0103,R0913
+
+[FORMAT]
+max-line-length=100
+
+[DESIGN]
+max-locals=15
+max-branches=12
+max-attributes=7
