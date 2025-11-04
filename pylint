@@ -1,0 +1,10 @@
+************* Module report.txt
+report.txt:1:0: F0001: No module named report.txt (fatal)
+************* Module src
+src\__init__.py:5:0: C0304: Final newline missing (missing-final-newline)
+************* Module src.calculator
+src\calculator.py:24:0: C0304: Final newline missing (missing-final-newline)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 9.05/10, -9.05)
+
