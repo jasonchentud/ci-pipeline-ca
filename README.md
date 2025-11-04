@@ -87,6 +87,16 @@ pylint src/ --exit-zero
 ### Pipeline triggers
 - Pipeline automatically runs on every commit to 'main' and 'development'
 
+
+## Branching Policies and Protection
+### main: 
+- Require a pull request before merging
+- Require status checks to pass before merging
+- Require branches to be up to date before merging
+
+### development:
+- Require status checks to pass before merging
+
 ## References
 
 All external resources used in this project:
