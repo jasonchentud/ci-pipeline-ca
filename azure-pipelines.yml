@@ -14,14 +14,8 @@ pool:
 
 strategy:
   matrix:
-    Python38:
-      python.version: '3.8'
-    Python39:
-      python.version: '3.9'
     Python310:
       python.version: '3.10'
-    Python311:
-      python.version: '3.11'
 
 steps:
 - task: UsePythonVersion@0
@@ -43,7 +37,7 @@ steps:
     pytest --cov=src --cov-report=xml --cov-report=html --cov-report=term-missing --cov-fail-under=80
   displayName: 'Run tests with coverage'
 
-- task: PublishCodeCoverageResults@1
+- task: PublishCodeCoverageResults@2
   inputs:
     codeCoverageTool: 'Cobertura'
     summaryFileLocation: '$(System.DefaultWorkingDirectory)/coverage.xml'
