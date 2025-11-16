@@ -98,10 +98,8 @@ class TestCalculator:
         assert self.calc.divide(7, -2) == -3.5
     
 
-    """
     def test_divide_zero_numerator(self):
         assert self.calc.divide(0, 5) == 0
-    """
     
     
 
